@@ -28,81 +28,9 @@
             : '' ) %>
         <% i+=1 %>
       <% } %>
-      and
-      <span class="inline-form-wrapper">
-        <form class="inline-subscribe" action="https://api.follow.it/subscription-form/alBsZ25pUFZXL1pnYTQ5ZHVHOHpadkI2NEppbTJnNVNLN0VxZ2RPNys4V01sUXJKVmFMck9pWk95YjRxb1BhQmUvdmNFSERBaHcyaUtweHZQelNJZ1RldDJSc28rVldrMCs3YXNlUGsxK2pYSzVtVG9VRjQvVzBib3pzb3dVa058aXArNjJQakNBSkNaZXVIY3RUWk40aGtjV3FZVDJDMjJhNGlTUzVnMFljUT0=/8" method="post">
-          <input type="email" name="email" required placeholder="Get new posts by email" spellcheck="false"> 
-          <button type="submit">Subscribe</button>
-        </form>
-      </span>
     </span>
   <% } %>
 </section>
-
-<style>
-  
-  .inline-form-wrapper {
-    display: inline-flex;
-    align-items: center;
-    margin-left: 0.2rem;
-  }
-  
-  .inline-subscribe {
-    display: inline-flex;
-    align-items: center;
-    margin: 0;
-  }
-  
-  .inline-subscribe input {
-    width: 180px;
-    padding: 0.4rem 0.6rem;
-    margin: 0 0.4rem 0 0;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    font-size: 0.85rem;
-  }
-  
-  .inline-subscribe input:focus {
-    outline: none;
-    border-color: #999;
-  }
-  
-  .inline-subscribe button {
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 0.4rem 0.8rem;
-    font-size: 0.85rem;
-    cursor: pointer;
-    white-space: nowrap;
-  }
-  
-  .inline-subscribe button:hover {
-    background-color: #444;
-  }
-  
-  @media (max-width: 768px) {
-    .social-email-line {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    
-    .inline-form-wrapper {
-      margin-left: 0;
-      margin-top: 0.5rem;
-      width: 100%;
-    }
-    
-    .inline-subscribe {
-      width: 100%;
-    }
-    
-    .inline-subscribe input {
-      flex: 1;
-    }
-  }
-</style>
 
 <section id="writing">
   <span class="h1"><a href="<%- url_for(theme.nav.articles) %>"><%= __('index.articles') %></a></span>
