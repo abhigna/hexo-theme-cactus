@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/abhigna
+projects_url: https://github.com/abhigna
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/abhigna
+  projects: https://github.com/abhigna
   Resume: /resume
 
 # Links to your social media accounts.
@@ -32,7 +32,7 @@ social_links:
     link: https://www.linkedin.com/in/abhigna-nagaraja
   -
     icon: github
-    link: http://github.com/abhigna
+    link: https://github.com/abhigna
   -
     icon: twitter
     link: https://x.com/abhigna
@@ -44,7 +44,7 @@ social_links:
     link: mailto:abhigna.n4@gmail.com
   -
     icon: rss
-    link: https://abhigna.dev/rss.xml
+    link: https://abhigna.dev/atom.xml
     
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
